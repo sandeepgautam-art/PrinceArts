@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Prince Arts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.jpeg" alt="Prince Arts Logo" class="logo-image">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch for a free consultation and quote</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Send us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="pop & gypsum">Plaster of Paris & Gypsum Ceiling</option>
+                                <option value="painting">Painting Services</option>
+                                <option value="electrical">Electrical Services</option>
+                                <option value="carpentry">Carpentry Services</option>
+                                <option value="repair">Repair & Maintenance</option>
+                                <option value="custom">Custom Design</option>
+                                <option value="marbel & flooring">Marbel tiles & Flooring</option>
+                                <option value="consultation">Free Consultation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <h2>Get in Touch</h2>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+919769598116">+91-9769598116</a></p>
+                                <p><a href="tel:+918850036371">+91-8850036371</a></p>
+                                <p><a href="https://wa.me/918850036371" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i> WhatsApp: +91-8850036371</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p><a href="mailto:princearts2000@gmail.com">princearts2000@gmail.com</a></p>
+                                <p><a href="mailto:  "> </a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Address</h4>
+                                <p>Sion</p>
+                                <p>Mumbai, Maharashtra</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                <p>Saturday: 9:00 AM - 4:00 PM</p>
+                                <p>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Email Registration Section -->
+    <section class="email-registration">
+        <div class="container">
+            <div class="registration-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest updates on our services, tips, and special offers.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <div class="newsletter-input-group">
+                        <input type="email" id="newsletterEmail" name="newsletterEmail" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                    <p class="newsletter-note">We respect your privacy. Unsubscribe at any time.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>How long does a typical ceiling installation take?</h4>
+                    <p>Most residential projects take 2-5 days depending on the complexity and size of the area. Commercial projects may take longer.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Do you provide free estimates?</h4>
+                    <p>Yes, we offer free consultations and detailed estimates for all our services. Contact us to schedule a visit.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What materials do you use?</h4>
+                    <p>We use only premium quality materials from trusted suppliers to ensure durability and excellent finish.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Do you offer warranty on your work?</h4>
+                    <p>Yes, we provide comprehensive warranty on all our installations and repairs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Prince Arts</h3>
+                    <p>Your trusted partner for professional plaster and gypsum ceiling services.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+918850036371">+91-8850036371</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:princearts2000@gmail.com">princearts2000@gmail.com</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Sion, Mumbai, Maharashtra</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Prince Arts All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/918850036371?text=Hi, I'm interested in your plaster and gypsum ceiling services. Please provide more information." target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+            <span>Chat with us</span>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
